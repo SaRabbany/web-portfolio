@@ -33,6 +33,7 @@ section{
 }
 .halfwidth img{
     width:100%;
+    
 }
 
 .top-button{
@@ -58,4 +59,29 @@ section{
    padding: 10px 20px;
    background-image: linear-gradient(55deg, rgb(131, 122, 255), rgb(106, 32, 243));
    border-radius:10px;
+}
+.experience_area{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+
+}
+.experience-card{
+     box-shadow: 10px 10px 40px dimgray;
+    
+     height:80%;
+     border-radius:5px;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#junior_dev{
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, rgb(131, 122, 255), rgb(89, 71, 255)); 
+   border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
